@@ -25,7 +25,7 @@ Pro úspěšné spuštění frontendové části aplikace je nutné mít nainsta
 Pokud projekt stahujete z Git repozitáře, použijte:
 
 ```bash
-git clone https://github.com/uzivatel/nazev-projektu.git
+https://github.com/Ev3r3st/EVO-FRONTEND.git
 cd nazev-projektu
 ```
 
