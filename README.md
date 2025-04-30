@@ -1,4 +1,7 @@
-
+# Nasazení aplikace se ještě připravuje, zatím frontend - bez backendu 
+```bash
+https://evo-theta.vercel.app/
+```
 # Frontend aplikace pro seberozvoj (Next.js + TypeScript + Tailwind CSS)
 
 Tato aplikace je progresivní webová aplikace (PWA) vytvořená pomocí frameworku **Next.js**. Kód je psán v **TypeScriptu** a stylování je řešeno pomocí **Tailwind CSS**.
