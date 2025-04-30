@@ -1,31 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Spuštění frontendu aplikace
+Frontend této aplikace je vytvořen pomocí frameworku Next.js s využitím TypeScriptu a Tailwind CSS. Aplikace je koncipována jako progresivní webová aplikace (PWA).
 
-## Getting Started
+1. Předpoklady
+Pro úspěšné spuštění frontendu je potřeba mít nainstalováno:
 
-First, run the development server:
+Node.js ve verzi 18.x nebo vyšší
 
-```bash
+npm (součástí Node.js)
+
+2. Instalace závislostí
+Otevřete terminál ve složce projektu (např. my-pwa-app) a spusťte příkaz:
+
+bash
+Zkopírovat
+Upravit
+npm install
+Tím se nainstalují všechny potřebné balíčky uvedené v package.json.
+
+3. Spuštění vývojového serveru
+Po úspěšné instalaci závislostí spusťte vývojový server pomocí příkazu:
+
+bash
+Zkopírovat
+Upravit
 npm run dev
+Pokud je vše v pořádku, v terminálu se zobrazí informace podobná následující:
 
-```
+arduino
+Zkopírovat
+Upravit
+Local: http://localhost:3000
+4. Ověření funkčnosti
+Otevřete webový prohlížeč (např. Google Chrome) a zadejte adresu:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Pokud se zobrazí úvodní stránka aplikace, je frontend úspěšně spuštěn. V případě této aplikace může jít např. o úvodní obrazovku s přehledem cílů, kurzy nebo formulářem pro přihlášení.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+5. Úprava obsahu
+Základní stránka aplikace se nachází v souboru:
 
-## Learn More
+bash
+Zkopírovat
+Upravit
+src/app/page.tsx
+Jakékoli úpravy v tomto souboru se projeví okamžitě v prohlížeči díky funkci automatického přenačítání (hot reload).
 
-To learn more about Next.js, take a look at the following resources:
+6. Vývojové prostředí
+Projekt je možné otevřít v libovolném editoru kódu, doporučuje se však Visual Studio Code (VS Code), který poskytuje podporu pro TypeScript, ESLint a integraci s Git.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
