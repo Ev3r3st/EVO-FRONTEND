@@ -1,4 +1,4 @@
-# Nasazení aplikace se ještě připravuje, zatím frontend - server(offline) - problém railway - opravy v řešení
+# Nasazená aplikace běží na:
 ```bash
 https://evo-theta.vercel.app/
 ```
